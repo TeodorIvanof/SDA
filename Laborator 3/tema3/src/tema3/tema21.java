@@ -6,13 +6,13 @@ public class tema21 {
 
 		// TODO Auto-generated method stub
 
-		Adress address = new Adress("Sibiu ", "Siretului ", 18);
+		Adress address = new Adress("Bucuresti ", "Lizeanu ", 20);
 
 		PaymentMethod pm = new PaymentMethod("cash");
 
 		Customer c = new Customer(address, pm);
 
-		Customer c1 = new Customer("Prisca", "Darius ", 21);
+		Customer c1 = new Customer("Ivanof", "Teodor ", 21);
 
 		System.out.println(c1.getCompleteName());
 
